@@ -1,0 +1,23 @@
+{
+  "name": "exe_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager.cmd . elect --asar --plataform=win32 --arch=x64 --overwrite --icons=icons/Icon.png --overwrite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config-autoreload": "^2.1.2",
+    "electron": "^22.3.0",
+    "electron-packager": "^17.1.1",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "socket.io": "^4.6.1",
+    "url": "^0.11.0",
+    "web-terminaljs": "^0.4.1"
+  }
+}

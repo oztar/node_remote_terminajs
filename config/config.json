@@ -1,0 +1,14 @@
+{
+    "refreshConfig": 30,
+    "options" : {
+	"webEngine" : true,
+	"port" : 8081,
+	"publicip" : "localhost",
+	"modules" : {
+	    "wtm_default" : true
+	},
+	"path" : "./source/modules",
+	"login" : false
+    },
+    "LIST_SERVER" : {}
+}
